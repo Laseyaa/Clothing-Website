@@ -1,0 +1,24 @@
+@media only screen and (max-width: 991px) {
+    .user-profil .system {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .system .pp {
+        font-size: 22px;
+    }
+
+    .user-profil .system .pra p {
+        font-size: 20px;
+    }
+
+    .flex .btns,
+    .flex .btns1,
+    .flex .btns2 {
+        font-size: 16px;
+        padding: 5px 15px;
+    }
+
+   
