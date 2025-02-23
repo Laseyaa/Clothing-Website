@@ -10,7 +10,7 @@ if (isset($_GET['logout'])) {
 }
 
 
-if (isset($_POST['add_to_cart'])) 
+if (isset($_POST['add_to_cart'])) {
     $product_name = mysqli_real_escape_string($con, $_POST['product_name']);
     $product_price = mysqli_real_escape_string($con, $_POST['product_price']);
     $product_image = mysqli_real_escape_string($con, $_POST['product_image']);
